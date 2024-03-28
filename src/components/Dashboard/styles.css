@@ -1,0 +1,33 @@
+.dashboard-container{
+    width:100%;
+    height:100%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-container{
+    height:100%;
+    margin-top: 350px;
+}
+
+.population-chart-heading{
+    font-size:25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.prices-list{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
